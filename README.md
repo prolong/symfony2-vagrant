@@ -7,7 +7,7 @@
 * Install Vagrant using using the [installation instructions](http://docs.vagrantup.com/v2/installation/index.html)
 * Clone this repository
 
-    ```$ git clone https://github.com/irmantas/symfony2-vagrant.git```
+    ```$ git clone https://github.com/prolong/symfony2-vagrant.git```
     
 * install git submodules
     ```$ git submodule update --init```
@@ -15,9 +15,9 @@
 * run vagrant (for the first time it should take up to 10-15 min)
     ```$ vagrant up```
     
-* Web server is accessible with http://33.33.33.100 (IP address can be changed in Vagrantfile)
+* Web server is accessible with http://192.168.33.10 (IP address can be changed in Vagrantfile)
 
-* PhpMyAdmin is accessible with http://33.33.33.100/phpmyadmin
+* PhpMyAdmin is accessible with http://192.168.33.10/phpmyadmin
 
 * Vagrant automatically setups database with this setup:
 
